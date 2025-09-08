@@ -44,7 +44,7 @@ export const HeroSection = () => {
         <span className="text-sm font-normal w-[150px] md:w-[250px] lg:w-[450px] text-start px-4"></span>
 
         <a href="/dashboard">
-          <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 shadow hover:bg-primary/90 h-8 px-3 text-xs rounded-full bg-gradient-to-r from-[#BE575F] via-[#A338E3] to-[#AC76D6] text-white">
+          <button className="cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 shadow hover:bg-primary/90 h-8 px-3 text-xs rounded-full bg-gradient-to-r from-[#BE575F] via-[#A338E3] to-[#AC76D6] text-white">
             Try Now
             <ArrowRight className="w-4 h-4" />
           </button>
